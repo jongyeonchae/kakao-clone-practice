@@ -9,73 +9,85 @@
     ></script>
   </head>
   <body>
-    <header>
-      <div class="status-bar">
-        <div class="status-bar__column">
-          <div class="status-bar__time">
-            13:54
-          </div>
-        </div>
-        <div class="status-bar__column">
-          <div class="status-bar__clock">
-            <i class="fas fa-clock"></i>
-          </div>
-          <div class="status-bar__volume">
-            <i class="fas fa-volume-up"></i>
-          </div>
-          <div class="status-bar__wifi">
-            <i class="fas fa-wifi"></i>
-          </div>
-          <span class="status-bar__battery">
-            100%
-          </span>
-          <div class="status-bar__battery-cell">
-            <i class="fas fa-battery-three-quarters"></i>
-          </div>
-        </div>
-      </div>
-      <div class="chats__header">
-        <span class="chats__header-title">
-          Chats
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">
+          13:54
         </span>
-        <div class="chats__search"></div>
-        <div class="chats__talk"></div>
-        <div class="chats__settings"></div>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-up"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">
+          100%
+        </span>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">
+          Chats
+        </h1>
+      </div>
+      <div class="header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
       </div>
     </header>
-    <ul class="chats__list">
-      <li class="chats__chat chat">
-        <div class="chat__column">
-          <div class="chat__avatar">
-            <img class="avatar" src="images/avatar.jpg" />
+    <main class="chats">
+      <ul class="chats__list">
+        <li class="chats__chat chat">
+          <a href="chat.html">
+            <div class="chat__column">
+              <img class="avatar" src="images/avatar.jpg" />
+              <div class="chat__content">
+                <span class="chat__username">
+                  Lynn
+                </span>
+                <span class="chat__bottom-text">
+                  Going Home!
+                </span>
+              </div>
+            </div>
+          </a>
+          <div class="chat__column">
+            <span class="chat__timestamp">
+              March 8
+            </span>
           </div>
-          <div class="chat__name">
-            Lynn
-          </div>
-          <div class="chat__bottom-text">
-            Going Home!
-          </div>
-        </div>
-        <div class="chat__column">
-          <div class="chat__timestamp">
-            March 8
-          </div>
-        </div>
-      </li>
-    </ul>
-    <nav class="nav-bar">
-      <ul class="nav-bar__list">
-        <li class="nav-bar__friends">
-          <i class="far fa-user"></i>
         </li>
-        <li class="nav-bar__chats">
-          <i class="far fa-comment"></i>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
         </li>
-        <li class="nav-bar__find">
-          <i class="fas fa-search"></i>
+        <li class="nav__list-item">
+          <a href="chat.html" class="nav__list-link">
+            <i class="fas fa-comment"></i>
+          </a>
         </li>
-        <li class="nav-bar__more">
-          <i class="fas fa-ellipsis-h"></i>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
         </li>
       </ul>
     </nav>
