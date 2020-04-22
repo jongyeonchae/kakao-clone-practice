@@ -41,52 +41,55 @@
       </div>
     </header>
     <main class="friends">
-      <ul class="friends__list">
-        <li class="friends__friend friend">
+      <header class="friends__header">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar avatar" />
+            <img src="imgage/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
-              <span class="username">
+              <span class="friend__name">
                 Nicolas Serrano
               </span>
-              <span class="bottom-text">
+              <span class="friend__status">
                 nomadcoders.co
               </span>
             </div>
           </div>
-        </li>
-      </ul>
-      <ul class="friends__plus-friend-list">
-        <span class="friends__plus-friend-list-title">
+        </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__title">
           Plus Friend
-        </span>
-        <li class="friends__plus-friend friend">
-          <img src="images/avatar.jpg" class="avatar" />
+        </h5>
+        <div class="friends__friend friend">
+          <img src="images/avatar.jpg" class="friend__avatar" />
           <div class="friend__content">
-            <span class="username">
+            <span class="friend__name">
               Plus Friend
             </span>
           </div>
-        </li>
-      </ul>
-      <ul class="friends__friends-list">
-        <span class="friends__friends-list-title">Friends 14</span>
-        <li class="friends__friends friend">
+        </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 14</h5>
+        <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
-              <span class="username">
+              <span class="friend__name">
                 Nicolas Serrano
               </span>
-              <span class="bottom-text">
+              <span class="friend__status">
                 nomadecoders.co
               </span>
             </div>
           </div>
           <div class="friend__column">
-            <span class="now-playing">
-              FTISLAND (Feat. Nomadcoders)
-            </span>
+            <div class="friend__now-listening">
+              <span>
+                FTISLAND (Feat. Nomadcoders)
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
           </div>
         </li>
       </ul>
