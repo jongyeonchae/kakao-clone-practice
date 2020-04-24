@@ -31,7 +31,7 @@
           More
         </h1>
       </div>
-      <div class="header-column">
+      <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
@@ -39,15 +39,17 @@
           <i class="fas fa-qrcode"></i>
         </span>
         <span class="header__icon">
-          <i class="fas fa-cog"></i>
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
     <main class="more">
       <header class="more__header">
-        <div class="more__friends friend">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="friend__g-avatar avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar g-avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Nicolas Serrano
@@ -61,60 +63,62 @@
             <i class="far fa-comment-alt fa-2x"></i>
           </div>
         </div>
-        <ul class="more__header-list header-list">
-          <li class="header-list__btn">
-            <span class="header-list__icon">
+        <ul class="more__btn-list">
+          <li class="more__btn">
+            <span class="more__btn-icon">
               <i class="far fa-smile fa-2x"></i>
             </span>
-            <span class="header-list__title">
+            <span class="more__btn-title">
               Emoticons
             </span>
           </li>
-          <li class="header-list__btn">
-            <span class="header-list__icon">
+          <li class="more__btn">
+            <span class="more__btn-icon">
               <i class="fas fa-brush fa-2x"></i>
             </span>
-            <span class="header-list__title">
+            <span class="more__btn-title">
               Themes
             </span>
           </li>
-          <li class="header-list__icon">
+          <li class="more__btn-icon">
             <i class="fab fa-kickstarter-k fa-2x"></i>
-            <span class="header-list__title">
+            <span class="more__btn-title">
               Account
             </span>
           </li>
         </ul>
       </header>
-      <h5 class="more__suggestions">
-        Suggestions
-      </h5>
-      <ul class="more__suggestions-list suggestions-list">
-        <li class="suggestions-list__btn">
-          <span class="suggestions-list__icon">
-            <i class="fas fa-quote-right fa-2x"></i>
-          </span>
-          <span class="suggestions-list__title">
-            Emoticons
-          </span>
-        </li>
-        <li class="suggestions-list__btn">
-          <span class="suggestions-list__icon">
-            <i class="fas fa-beer fa-2x"></i>
-          </span>
-          <span class="suggestions-list__title">
-            Kakao Friends
-          </span>
-        </li>
-        <li class="suggestions-list__btn">
-          <span class="suggestions-list__icon">
-            <i class="fas fa-gamepad fa-2x"></i>
-          </span>
-          <span class="suggestions-list__title">
-            Friends Gem
-          </span>
-        </li>
-      </ul>
+      <section class="more__suggestions">
+        <h5 class="more__title">
+          Suggestions
+        </h5>
+        <ul class="more__suggestions-list">
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-quote-right fa-2x"></i>
+            </span>
+            <span class="suggestion__title">
+              Kakao Story
+            </span>
+          </li>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-beer fa-2x"></i>
+            </span>
+            <span class="suggestion__title">
+              Kakao Friends
+            </span>
+          </li>
+          <li class="more__suggestion suggestion">
+            <span class="suggestion__icon">
+              <i class="fas fa-gamepad fa-2x"></i>
+            </span>
+            <span class="suggestion__title">
+              Friends Gem
+            </span>
+          </li>
+        </ul>
+      </section>
     </main>
     <nav class="nav">
       <ul class="nav__list">
