@@ -1,0 +1,41 @@
+header {
+  padding-bottom: 26px;
+}
+
+header,
+.header__header-column,
+.header__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-bottom: 20px; */
+}
+
+.header__title {
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+i {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.settings__title {
+  font-size: 22px;
+  font-weight: 300;
+  padding-left: 20px;
+}
+
+section {
+  border-top: solid 1px #f7f7f7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.settings__setting {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
