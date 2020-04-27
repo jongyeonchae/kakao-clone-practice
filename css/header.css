@@ -1,72 +1,27 @@
-header {
+.header {
   display: flex;
   justify-content: space-between;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 30px;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.header .header__header-column .header__title {
-  font-weight: 700;
+.header .header__title {
+  font-weight: 600;
   font-size: 24px;
 }
 
-.header .header__header-column .header__icon {
-  padding-left: 20px;
-}
-
-.header__icon {
+.header .header__icon {
   font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
-.find .find__header {
-  padding-top: 20px;
-  border-bottom: 1px solid #f7f7f7;
-}
-
-.find .find__header .find__header-list {
+.header .header__header-column {
   display: flex;
-  width: 100%;
-  justify-content: space-around;
   align-items: center;
 }
 
-.find .header-btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.find .header-btn__icon {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.find .header-btn__title,
-.more .more__btn-title {
-  font-size: 14px;
-}
-
-.more .more__header {
-  display: block;
-  border-bottom: 1px solid #f7f7f7;
-}
-
-.more .more__header .more__btn-list {
-  display: flex;
-}
-
-.more .more__header .more__btn-list .more__btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.more .more__btn-icon {
-  margin-bottom: 14px;
-}
-
-.more .more__btn {
-  margin-right: 40px;
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 20px;
 }
