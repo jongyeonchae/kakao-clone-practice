@@ -1,0 +1,67 @@
+.friends .friend__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 18px;
+}
+
+.friends .g-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+}
+
+.friends .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friends .friend__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.friends .friend__status {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 8px;
+}
+
+.friends__plus .friends__title,
+.friends__list .friends__title {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.friends .friends__plus,
+.friends .friends__list {
+  border-top: 1px solid #f7f7f7;
+  margin-top: 20px;
+}
+
+.friends__plus .friend {
+  display: flex;
+  align-items: center;
+}
+
+.friends__list .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friends__list .friend__now-listening {
+  border: 2px solid #4bd60b;
+  border-radius: 20px;
+  padding: 5px 8px;
+  font-size: 14px;
+  color: #808080;
+}
+
+.friends__list .friend {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
