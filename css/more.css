@@ -1,43 +1,50 @@
-.more .more__btn-title,
-.more .suggestion__title {
-  font-size: 14px;
-}
-
-.more .more__header {
-  display: block;
-  border-bottom: 1px solid #f7f7f7;
-}
-
-.more__header .more__btn-list,
-.more__suggestions-list {
-  display: flex;
+.more .more__btn-list,
+.more .more__suggestions-list {
   margin: 30px 0px;
-}
-
-.more__btn-list .more__btn,
-.more__suggestions-list .suggestion {
+  margin-left: 10px;
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
-.more .more__btn-icon,
-.more .suggestion__icon {
-  margin-bottom: 14px;
-}
-
-.more .more__btn,
+.more__btn-list .more__btn,
 .more .suggestion {
   margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
 }
 
-.more__suggestions .more__title {
-  margin: 20px 0px;
+.more__btn .more__btn-title {
+  font-size: 14px;
+  margin-top: 15px;
 }
 
-.more .suggestion__icon i {
-  color: white;
-  background-color: #fce000;
+.more .more__suggestions {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 20px;
+}
+
+.more .more__title {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.suggestion .suggestion__title {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.suggestion .suggestion__icon {
+  background-color: #fce006;
   padding: 10px;
-  border-radius: 20%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestion__icon i {
+  font-size: 28px;
+  color: white;
 }
