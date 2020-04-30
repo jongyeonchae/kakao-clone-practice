@@ -1,0 +1,42 @@
+.chats-body {
+  background-image: url(../images/chatBg.png);
+}
+
+.chats-body .header-wrapper {
+  background-color: red;
+}
+
+.chat-screen .chat__timestamp {
+  font-size: 12px;
+  font-family: 800;
+  padding: 2px 8px;
+  background-color: red;
+  border-radius: 22px;
+}
+
+.incoming-message .message-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-screen .incoming-message {
+  display: flex;
+}
+
+.incoming-message .m-avatar {
+  width: 30px;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.message .message__bubble {
+  padding: 10px;
+  background-color: royalblue;
+}
+
+.chat__write {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
+}
