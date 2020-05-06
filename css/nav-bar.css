@@ -36,3 +36,15 @@
   animation: showNavBar 0.5s 1s ease-out forwards;
   /* animation-delay: 1s; */
 }
+
+.nav__list-text {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  font-size: 10px;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: inline-flex;
+  border-radius: 10px;
+}
