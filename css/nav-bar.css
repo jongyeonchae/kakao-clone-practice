@@ -37,14 +37,17 @@
   /* animation-delay: 1s; */
 }
 
-.nav__list-text {
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  font-size: 10px;
+.nav__badge {
+  position: absolute;
   color: white;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  display: inline-flex;
-  border-radius: 10px;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  top: -7px;
+  right: -7px;
+  border-radius: 50%;
 }
